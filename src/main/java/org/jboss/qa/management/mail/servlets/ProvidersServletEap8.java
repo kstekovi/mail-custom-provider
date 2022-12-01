@@ -19,10 +19,10 @@ import java.io.PrintWriter;
 /**
  * @author Jan Bliznak <jbliznak@redhat.com>
  */
-@WebServlet("/" + MailTestConstants.JSP_MAIL_PROVIDERS)
-public class ProvidersServlet extends HttpServlet {
+@WebServlet("/" + MailTestConstants.JSP_MAIL_PROVIDERS_EAP8)
+public class ProvidersServletEap8 extends HttpServlet {
 
-    public static final Logger log = LoggerFactory.getLogger(ProvidersServlet.class);
+    public static final Logger log = LoggerFactory.getLogger(ProvidersServletEap8.class);
     private Session mailSession;
 
     @Override
